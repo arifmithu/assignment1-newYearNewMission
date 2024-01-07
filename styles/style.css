@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&display=swap');
 /* shared styles */
 * {
   margin: 0;
@@ -20,17 +20,6 @@
   background-size: 100%;
   position: relative;
 }
-.banner-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    height: 470px;
-    border-radius: 10px;
-  }
 
 .banner-section p {
   color: #fff;
@@ -50,4 +39,54 @@
   font-weight: 900;
   line-height: 95px;
   padding-bottom: 177px;
+}
+
+/* discount section */
+.discount-section{
+  text-align: center;
+}
+.discount-title{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 48px;
+}
+.discount-section p{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+
+.discount-section h3{
+  color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 43px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 48px;
+}
+/* welcome section */
+.welcome-section{
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 126px;
+  margin-top: 126px;
+}
+.welcome-section h1{
+  color: #FFF;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+padding-top: 126px;
 }
