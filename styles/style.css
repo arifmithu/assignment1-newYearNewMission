@@ -6,7 +6,7 @@
   padding: 0;
   font-family: merriweather;
 }
-.container {
+.container ,hr{
   width: 82%;
   margin: 0px auto;
 }
@@ -300,7 +300,7 @@
   margin: 22px auto 48px auto;
 }
 
-.subscribe-section .email-field{
+.subscribe-section .email-field {
   padding-bottom: 80px;
 }
 .subscribe-section .email-field input {
@@ -326,4 +326,58 @@
   font-weight: 600;
   text-transform: capitalize;
   vertical-align: bottom;
+}
+/* footer section */
+footer {
+  background-color: #070211;
+  margin-top: 120px;
+  color: #fff;
+}
+.foot-head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.foot-head address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.foot-head .phone {
+  display: flex;
+}
+.foot-head .phone p , .foot-head .website p{
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-left: 16px;
+}
+.foot-head .website {
+  display: flex;
+}
+hr{
+  /* width: 1320px; */
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+border: none;
+}
+
+/* footer social section */
+.social{
+  margin-top: 48px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* lower footer section */
+.lower-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 120px;
 }
